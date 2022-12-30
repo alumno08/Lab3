@@ -1,0 +1,81 @@
+Secuencial
+
+
+El programa se ha ejecutado 1 veces
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      5.906, GFlop per sec (GFLOPs) =     21.671
+
+El programa se ha ejecutado 2 veces
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      5.906, GFlop per sec (GFLOPs) =     21.673
+
+El programa se ha ejecutado 3 veces
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      5.905, GFlop per sec (GFLOPs) =     21.675
+
+El programa se ha ejecutado 4 veces
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      5.904, GFlop per sec (GFLOPs) =     21.679
+
+real	0m23,647s
+user	0m23,606s
+sys	0m0,015s
+Paralelo &
+
+
+El programa se ha ejecutado 1 veces
+
+El programa se ha ejecutado 2 veces
+
+El programa se ha ejecutado 3 veces
+
+El programa se ha ejecutado 4 veces
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.079, GFlop per sec (GFLOPs) =     21.057
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.091, GFlop per sec (GFLOPs) =     21.014
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.098, GFlop per sec (GFLOPs) =     20.992
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.115, GFlop per sec (GFLOPs) =     20.934
+
+real	0m6,122s
+user	0m24,359s
+sys	0m0,016s
+
+Paralelo con srun
+
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.083, GFlop per sec (GFLOPs) =     21.044
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.094, GFlop per sec (GFLOPs) =     21.005
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.271, GFlop per sec (GFLOPs) =     20.410
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      6.275, GFlop per sec (GFLOPs) =     20.400
+
+real	0m6,444s
+user	0m0,011s
+sys	0m0,007s
+
+Paralelo con Parallel
+Initializing
+Starting Compute
+GFlop =    128.000, Secs =      5.927, GFlop per sec (GFLOPs) =     21.595
+
+real	0m6,044s
+user	0m6,021s
+sys	0m0,026s
+

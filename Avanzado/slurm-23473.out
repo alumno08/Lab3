@@ -1,0 +1,261 @@
+APARTADO 1
+
+Tiempo total de ejecucion de helloflops3-AVX con hilos diferentes
+
+Initializing
+Starting Compute on 1 threads
+GFlops =    128.000, Secs =      5.993, GFlops per sec =     21.358
+Initializing
+Starting Compute on 2 threads
+GFlops =    256.000, Secs =      6.013, GFlops per sec =     42.572
+Initializing
+Starting Compute on 4 threads
+GFlops =    512.000, Secs =      6.364, GFlops per sec =     80.456
+
+real	0m18,395s
+user	0m43,396s
+sys	0m0,039s
+
+APARTADO 2
+
+Tiempo ejecucion  helloflops3-AVX con 4 CPU
+
+Initializing
+Starting Compute on 4 threads
+GFlops =    512.000, Secs =      6.379, GFlops per sec =     80.259
+
+real	0m6,387s
+user	0m25,460s
+sys	0m0,028s
+
+APARTADO 3
+
+Tiempo de ejecucion Fastqc secuencial VS  paralela de Fastqc
+
+Fastqc secuencial
+
+Started analysis of Sample1.fastq
+Approx 5% complete for Sample1.fastq
+Approx 10% complete for Sample1.fastq
+Approx 15% complete for Sample1.fastq
+Approx 20% complete for Sample1.fastq
+Approx 25% complete for Sample1.fastq
+Approx 30% complete for Sample1.fastq
+Approx 35% complete for Sample1.fastq
+Approx 40% complete for Sample1.fastq
+Approx 45% complete for Sample1.fastq
+Approx 50% complete for Sample1.fastq
+Approx 55% complete for Sample1.fastq
+Approx 60% complete for Sample1.fastq
+Approx 65% complete for Sample1.fastq
+Approx 70% complete for Sample1.fastq
+Approx 75% complete for Sample1.fastq
+Approx 80% complete for Sample1.fastq
+Approx 85% complete for Sample1.fastq
+Approx 90% complete for Sample1.fastq
+Approx 95% complete for Sample1.fastq
+Approx 100% complete for Sample1.fastq
+Analysis complete for Sample1.fastq
+Started analysis of Sample2.fastq
+Approx 5% complete for Sample2.fastq
+Approx 10% complete for Sample2.fastq
+Approx 15% complete for Sample2.fastq
+Approx 20% complete for Sample2.fastq
+Approx 25% complete for Sample2.fastq
+Approx 30% complete for Sample2.fastq
+Approx 35% complete for Sample2.fastq
+Approx 40% complete for Sample2.fastq
+Approx 45% complete for Sample2.fastq
+Approx 50% complete for Sample2.fastq
+Approx 55% complete for Sample2.fastq
+Approx 60% complete for Sample2.fastq
+Approx 65% complete for Sample2.fastq
+Approx 70% complete for Sample2.fastq
+Approx 75% complete for Sample2.fastq
+Approx 80% complete for Sample2.fastq
+Approx 85% complete for Sample2.fastq
+Approx 90% complete for Sample2.fastq
+Approx 95% complete for Sample2.fastq
+Approx 100% complete for Sample2.fastq
+Analysis complete for Sample2.fastq
+Started analysis of Sample3.fastq
+Approx 5% complete for Sample3.fastq
+Approx 10% complete for Sample3.fastq
+Approx 15% complete for Sample3.fastq
+Approx 20% complete for Sample3.fastq
+Approx 25% complete for Sample3.fastq
+Approx 30% complete for Sample3.fastq
+Approx 35% complete for Sample3.fastq
+Approx 40% complete for Sample3.fastq
+Approx 45% complete for Sample3.fastq
+Approx 50% complete for Sample3.fastq
+Approx 55% complete for Sample3.fastq
+Approx 60% complete for Sample3.fastq
+Approx 65% complete for Sample3.fastq
+Approx 70% complete for Sample3.fastq
+Approx 75% complete for Sample3.fastq
+Approx 80% complete for Sample3.fastq
+Approx 85% complete for Sample3.fastq
+Approx 90% complete for Sample3.fastq
+Approx 95% complete for Sample3.fastq
+Approx 100% complete for Sample3.fastq
+Analysis complete for Sample3.fastq
+Started analysis of Sample4.fastq
+Approx 5% complete for Sample4.fastq
+Approx 10% complete for Sample4.fastq
+Approx 15% complete for Sample4.fastq
+Approx 20% complete for Sample4.fastq
+Approx 25% complete for Sample4.fastq
+Approx 30% complete for Sample4.fastq
+Approx 35% complete for Sample4.fastq
+Approx 40% complete for Sample4.fastq
+Approx 45% complete for Sample4.fastq
+Approx 50% complete for Sample4.fastq
+Approx 55% complete for Sample4.fastq
+Approx 60% complete for Sample4.fastq
+Approx 65% complete for Sample4.fastq
+Approx 70% complete for Sample4.fastq
+Approx 75% complete for Sample4.fastq
+Approx 80% complete for Sample4.fastq
+Approx 85% complete for Sample4.fastq
+Approx 90% complete for Sample4.fastq
+Approx 95% complete for Sample4.fastq
+Approx 100% complete for Sample4.fastq
+Analysis complete for Sample4.fastq
+
+real	0m15,632s
+user	0m7,758s
+sys	0m0,424s
+
+Fastqc paralela
+
+Started analysis of Sample1.fastq
+Approx 5% complete for Sample1.fastq
+Approx 10% complete for Sample1.fastq
+Approx 15% complete for Sample1.fastq
+Approx 20% complete for Sample1.fastq
+Approx 25% complete for Sample1.fastq
+Approx 30% complete for Sample1.fastq
+Approx 35% complete for Sample1.fastq
+Approx 40% complete for Sample1.fastq
+Approx 45% complete for Sample1.fastq
+Approx 50% complete for Sample1.fastq
+Approx 55% complete for Sample1.fastq
+Approx 60% complete for Sample1.fastq
+Approx 65% complete for Sample1.fastq
+Approx 70% complete for Sample1.fastq
+Approx 75% complete for Sample1.fastq
+Approx 80% complete for Sample1.fastq
+Approx 85% complete for Sample1.fastq
+Approx 90% complete for Sample1.fastq
+Approx 95% complete for Sample1.fastq
+Approx 100% complete for Sample1.fastq
+Analysis complete for Sample1.fastq
+Started analysis of Sample2.fastq
+Approx 5% complete for Sample2.fastq
+Approx 10% complete for Sample2.fastq
+Approx 15% complete for Sample2.fastq
+Approx 20% complete for Sample2.fastq
+Approx 25% complete for Sample2.fastq
+Approx 30% complete for Sample2.fastq
+Approx 35% complete for Sample2.fastq
+Approx 40% complete for Sample2.fastq
+Approx 45% complete for Sample2.fastq
+Approx 50% complete for Sample2.fastq
+Approx 55% complete for Sample2.fastq
+Approx 60% complete for Sample2.fastq
+Approx 65% complete for Sample2.fastq
+Approx 70% complete for Sample2.fastq
+Approx 75% complete for Sample2.fastq
+Approx 80% complete for Sample2.fastq
+Approx 85% complete for Sample2.fastq
+Approx 90% complete for Sample2.fastq
+Approx 95% complete for Sample2.fastq
+Approx 100% complete for Sample2.fastq
+Analysis complete for Sample2.fastq
+Started analysis of Sample3.fastq
+Approx 5% complete for Sample3.fastq
+Approx 10% complete for Sample3.fastq
+Approx 15% complete for Sample3.fastq
+Approx 20% complete for Sample3.fastq
+Approx 25% complete for Sample3.fastq
+Approx 30% complete for Sample3.fastq
+Approx 35% complete for Sample3.fastq
+Approx 40% complete for Sample3.fastq
+Approx 45% complete for Sample3.fastq
+Approx 50% complete for Sample3.fastq
+Approx 55% complete for Sample3.fastq
+Approx 60% complete for Sample3.fastq
+Approx 65% complete for Sample3.fastq
+Approx 70% complete for Sample3.fastq
+Approx 75% complete for Sample3.fastq
+Approx 80% complete for Sample3.fastq
+Approx 85% complete for Sample3.fastq
+Approx 90% complete for Sample3.fastq
+Approx 95% complete for Sample3.fastq
+Approx 100% complete for Sample3.fastq
+Analysis complete for Sample3.fastq
+Started analysis of Sample4.fastq
+Approx 5% complete for Sample4.fastq
+Approx 10% complete for Sample4.fastq
+Approx 15% complete for Sample4.fastq
+Approx 20% complete for Sample4.fastq
+Approx 25% complete for Sample4.fastq
+Approx 30% complete for Sample4.fastq
+Approx 35% complete for Sample4.fastq
+Approx 40% complete for Sample4.fastq
+Approx 45% complete for Sample4.fastq
+Approx 50% complete for Sample4.fastq
+Approx 55% complete for Sample4.fastq
+Approx 60% complete for Sample4.fastq
+Approx 65% complete for Sample4.fastq
+Approx 70% complete for Sample4.fastq
+Approx 75% complete for Sample4.fastq
+Approx 80% complete for Sample4.fastq
+Approx 85% complete for Sample4.fastq
+Approx 90% complete for Sample4.fastq
+Approx 95% complete for Sample4.fastq
+Approx 100% complete for Sample4.fastq
+Analysis complete for Sample4.fastq
+
+real	0m3,264s
+user	0m7,235s
+sys	0m0,339s
+
+APARTADO 4
+
+SLURM_NODEID=0
+SLURM_TASK_PID=1342233
+SLURM_PRIO_PROCESS=0
+SLURM_SUBMIT_DIR=/home/alumno08/lab-3/Avanzado
+SLURM_CPUS_PER_TASK=4
+SLURM_PROCID=0
+SLURM_JOB_GID=1058
+SLURMD_NODENAME=pacioli
+SLURM_TASKS_PER_NODE=1
+SLURM_NNODES=1
+SLURM_JOB_NODELIST=pacioli
+SLURM_CLUSTER_NAME=gacop
+SLURM_NODELIST=pacioli
+SLURM_NTASKS=1
+SLURM_JOB_CPUS_PER_NODE=4
+SLURM_TOPOLOGY_ADDR=pacioli
+SLURM_WORKING_CLUSTER=gacop:ibsen:6817:8960:101
+SLURM_JOB_NAME=jai
+SLURM_JOBID=23473
+SLURM_CONF=/etc/slurm/slurm.conf
+SLURM_NODE_ALIASES=(null)
+SLURM_JOB_QOS=normal
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SLURM_CPUS_ON_NODE=4
+SLURM_JOB_NUM_NODES=1
+SLURM_JOB_UID=1058
+SLURM_JOB_PARTITION=hpc-bio-pacioli
+SLURM_JOB_USER=alumno08
+SLURM_NPROCS=1
+SLURM_SUBMIT_HOST=ibsen
+SLURM_JOB_ACCOUNT=group2
+SLURM_GTIDS=0
+SLURM_JOB_ID=23473
+SLURM_LOCALID=0
+
